@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiwa Adedeji · Virtual Assistant</title>
+    <meta name="description"
+        content="Virtual Assistant helping busy founders stay organized through administrative and workflow support." />
+
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- Google Fonts: Playfair Display + Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- =============================================
+  NAVIGATION
+  ============================================= -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">Tiwa<span>.</span></div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#booking">Book</a></li>
+                <li><a href="#connect">Connect</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- =============================================
+  HERO (Image Frame on Left)
+  ============================================= -->
+    <section class="hero" id="hero">
+        <div class="container hero-grid">
+            <div class="hero-visual">
+                <div class="hero-image-frame">
+                    <div class="image-wrapper">
+                        <!-- Replace the src with Tiwa's actual photo -->
+                        <img src="./assets/tiwa.PNG" alt="Tiwa Adedeji - Virtual Assistant" class="hero-image" />
+                        <div class="image-overlay"></div>
+                    </div>
+                    <!-- Decorative corner elements -->
+                    <span class="corner-deco corner-tl">✦</span>
+                    <span class="corner-deco corner-tr">✦</span>
+                    <span class="corner-deco corner-bl">✦</span>
+                    <span class="corner-deco corner-br">✦</span>
+                </div>
+                <div class="hero-stats-row">
+                    <div class="stat">
+                        <strong>250+</strong>
+                        <span>Connections</span>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="stat">
+                        <strong>6+</strong>
+                        <span>Months</span>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="stat">
+                        <strong>8+</strong>
+                        <span>Tools</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <span class="hero-badge">✦ Virtual Assistant</span>
+                <h1>Building the <span>business backbone</span> for busy founders</h1>
+                <p class="hero-desc">Administrative &amp; workflow support that keeps work clear, structured, and easy
+                    to follow.</p>
+                <div class="hero-actions">
+                    <a href="#booking" class="btn btn-primary">
+                        <i class="fas fa-calendar-check"></i> Book a consultation
+                    </a>
+                    <a href="#services" class="btn btn-outline">Explore services</a>
+                </div>
+                <div class="hero-tags">
+                    <span>✦ Organization</span>
+                    <span class="dot">·</span>
+                    <span>✦ Structure</span>
+                    <span class="dot">·</span>
+                    <span>✦ Clarity</span>
+                    <span class="dot">·</span>
+                    <span>✦ Efficiency</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =============================================
+  ABOUT (Staggered)
+  ============================================= -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <span class="section-tag">About</span>
+                    <h2 class="section-title">Helping founders <span>stay in control</span></h2>
+                    <p>I help busy founders stay organized and in control of their day-to-day operations through
+                        administrative and workflow support.</p>
+                    <p>I focus on managing tasks, scheduling, and communication in a way that keeps work clear,
+                        structured, and easy to follow.</p>
+                    <p>I take a <strong>consistent and structured approach</strong> to my work, ensuring tasks are
+                        properly managed and followed through.</p>
+                    <a href="#booking" class="btn btn-sage" style="margin-top:8px;">
+                        <i class="fas fa-calendar-check"></i> Book a consultation
+                    </a>
+                </div>
+                <div class="about-cards">
+                    <div class="about-card">
+                        <h4><i class="fas fa-check-circle"></i> My Approach</h4>
+                        <p>Consistent, structured workflow with clear task management and follow-through on every
+                            detail.</p>
+                    </div>
+                    <div class="about-card">
+                        <h4><i class="fas fa-bullseye"></i> Open To</h4>
+                        <p>Remote opportunities supporting founders and teams with administrative and workflow support.
+                        </p>
+                    </div>
+                    <div class="about-card">
+                        <h4><i class="fas fa-star"></i> My Focus</h4>
+                        <p>Managing tasks, scheduling, and communication to keep work clear, structured, and easy to
+                            follow.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =============================================
+  SERVICES (No Learn More links)
+  ============================================= -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="services-header">
+                <div>
+                    <span class="section-tag">Services</span>
+                    <h2 class="section-title">What I <span>offer</span></h2>
+                    <p class="section-sub">Administrative and workflow support designed to keep your business running
+                        smoothly.</p>
+                </div>
+                <a href="#booking" class="btn btn-outline" style="flex-shrink:0;">Book now →</a>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <span class="icon"><i class="fas fa-tasks"></i></span>
+                    <h3>Task Management</h3>
+                    <p>Organizing, prioritizing, and tracking tasks so nothing falls through the cracks.</p>
+                </div>
+                <div class="service-card">
+                    <span class="icon"><i class="fas fa-calendar-alt"></i></span>
+                    <h3>Scheduling</h3>
+                    <p>Managing appointments, meetings, and calendars to keep your day structured.</p>
+                </div>
+                <div class="service-card">
+                    <span class="icon"><i class="fas fa-envelope"></i></span>
+                    <h3>Email Management</h3>
+                    <p>Organizing inboxes and managing communications professionally.</p>
+                </div>
+                <div class="service-card">
+                    <span class="icon"><i class="fas fa-file-alt"></i></span>
+                    <h3>SOP Creation</h3>
+                    <p>Creating clear Standard Operating Procedures and onboarding documents.</p>
+                </div>
+                <div class="service-card">
+                    <span class="icon"><i class="fas fa-project-diagram"></i></span>
+                    <h3>Workflow Design</h3>
+                    <p>Building sample workflows that streamline operations and improve collaboration.</p>
+                </div>
+                <div class="service-card">
+                    <span class="icon"><i class="fas fa-clock"></i></span>
+                    <h3>Time Management</h3>
+                    <p>Helping you prioritize and manage your time effectively.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =============================================
+  SKILLS (Anchor tags with instruction)
+  ============================================= -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="skills-header">
+                <span class="section-tag">Expertise</span>
+                <h2 class="section-title">Tools I <span>master</span></h2>
+                <p class="section-sub">Each tool is a building block in creating organized, efficient workflows.
+                    <strong>Click any card to explore.</strong>
+                </p>
+            </div>
+            <div class="skills-grid">
+                <a href="#" class="skill-pill highlight" target="_blank" rel="noopener noreferrer"><i
+                        class="fas fa-star"></i> Organization Skills</a>
+                <a href="#" class="skill-pill" target="_blank" rel="noopener noreferrer"><i class="fas fa-comments"></i>
+                    Communication</a>
+                <a href="#" class="skill-pill" target="_blank" rel="noopener noreferrer"><i
+                        class="fas fa-puzzle-piece"></i> Problem Solving</a>
+                <a href="#" class="skill-pill" target="_blank" rel="noopener noreferrer"><i class="fas fa-bolt"></i>
+                    Multitasking</a>
+                <a href="#" class="skill-pill" target="_blank" rel="noopener noreferrer"><i
+                        class="fas fa-search-plus"></i> Attention to Detail</a>
+                <a href="#" class="skill-pill" target="_blank" rel="noopener noreferrer"><i class="fas fa-trello"></i>
+                    Trello</a>
+                <a href="#" class="skill-pill" target="_blank" rel="noopener noreferrer"><i
+                        class="fas fa-list-check"></i> Asana</a>
+                <a href="#" class="skill-pill" target="_blank" rel="noopener noreferrer"><i
+                        class="fas fa-clipboard-list"></i> ClickUp</a>
+                <a href="#" class="skill-pill" target="_blank" rel="noopener noreferrer"><i class="fas fa-brain"></i>
+                    Notion</a>
+                <a href="#" class="skill-pill" target="_blank" rel="noopener noreferrer"><i class="fas fa-table"></i>
+                    Microsoft Excel</a>
+                <a href="#" class="skill-pill" target="_blank" rel="noopener noreferrer"><i class="fas fa-google"></i>
+                    Google Workspace</a>
+                <a href="#" class="skill-pill" target="_blank" rel="noopener noreferrer"><i class="fas fa-bullhorn"></i>
+                    Buffer</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- =============================================
+  TESTIMONIALS (Auto Carousel)
+  ============================================= -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <span class="section-tag">Testimonials</span>
+            <h2 class="section-title">What people <span>say</span></h2>
+            <p class="section-sub" style="margin-bottom:28px;">Real feedback from founders and collaborators.</p>
+
+            <div class="testimonial-carousel">
+                <div class="carousel-track" id="carouselTrack">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card">
+                        <div class="quote">"</div>
+                        <p>Tiwa has been an absolute lifesaver. Her structured approach to task management and
+                            communication has given me back hours of my week.</p>
+                        <div class="author">
+                            <div class="initial">A</div>
+                            <div>
+                                <div class="name">Adeola O.</div>
+                                <div class="role">Founder, HerTech</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card">
+                        <div class="quote">"</div>
+                        <p>Working with Tiwa feels like having a second brain. She keeps everything organized, clear,
+                            and moving forward. Highly recommend.</p>
+                        <div class="author">
+                            <div class="initial">B</div>
+                            <div>
+                                <div class="name">Bola K.</div>
+                                <div class="role">CEO, Bloom Collective</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card">
+                        <div class="quote">"</div>
+                        <p>Tiwa's ability to manage complex schedules and keep our team aligned has been invaluable. She
+                            truly understands how to build operational clarity.</p>
+                        <div class="author">
+                            <div class="initial">C</div>
+                            <div>
+                                <div class="name">Chioma E.</div>
+                                <div class="role">COO, SheVentures</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 4 -->
+                    <div class="testimonial-card">
+                        <div class="quote">"</div>
+                        <p>I don't know how I managed before Tiwa. She took our chaotic workflows and turned them into
+                            streamlined, organized systems that actually work.</p>
+                        <div class="author">
+                            <div class="initial">D</div>
+                            <div>
+                                <div class="name">Deborah A.</div>
+                                <div class="role">Founder, Alma Creative</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carousel Navigation Dots -->
+                <div class="carousel-dots" id="carouselDots"></div>
+
+                <!-- Optional Controls -->
+                <button class="carousel-btn carousel-prev" id="carouselPrev" aria-label="Previous">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn carousel-next" id="carouselNext" aria-label="Next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- =============================================
+  BOOKING / CONSULTATION (Google Appointment)
+  ============================================= -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <div class="booking-card">
+                <div class="booking-content">
+                    <span class="section-tag">Let's talk</span>
+                    <h2 class="section-title">Book a <span>consultation</span></h2>
+                    <p>Ready to get organized? Schedule a 1-on-1 consultation to discuss your business needs and how I
+                        can support you.</p>
+                </div>
+                <div class="booking-actions">
+                    <a href="https://calendar.app.google/Mv7BYScn2Qkd83rb6" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-primary">
+                        <i class="fas fa-calendar-plus"></i> Schedule 1-on-1
+                    </a>
+                    <a href="https://wa.me/2348110859249" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                    </a>
+                    <a href="mailto:tiwaadedeji.va@gmail.com" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i> Email me
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =============================================
+  CONNECT
+  ============================================= -->
+    <section class="connect" id="connect">
+        <div class="container">
+            <div class="connect-grid">
+                <div class="connect-content">
+                    <span class="section-tag">Connect</span>
+                    <h2 class="section-title">Let's <span>work together</span></h2>
+                    <p>I'm currently open to remote opportunities supporting founders and teams. Feel free to reach out
+                        — I'd love to learn about your business and how I can help.</p>
+                    <div class="connect-details">
+                        <div class="connect-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>tiwaadedeji.va@gmail.com</span>
+                        </div>
+                        <div class="connect-item">
+                            <i class="fas fa-map-pin"></i>
+                            <span>Nigeria · Remote</span>
+                        </div>
+                    </div>
+                    <div class="connect-social">
+                        <a href="https://linkedin.com/in/tiwaadedeji" aria-label="LinkedIn"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/2348110859249" target="_blank" rel="noopener noreferrer"
+                            aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="connect-form">
+                    <form id="contactForm" action="https://formspree.io/f/mdarayek" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your name" required />
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Email address" required />
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Tell me how I can support you..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =============================================
+  FOOTER
+  ============================================= -->
+    <footer>
+        <div class="container">
+            <p>© 2026 Tiwa Adedeji · Virtual Assistant</p>
+            <p class="tagline">Building the business backbone for busy founders.</p>
+        </div>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
